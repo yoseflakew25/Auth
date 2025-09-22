@@ -5,12 +5,13 @@
     "packages/*"
   ],
   "scripts": {
-    "build": "npm run build -ws",
+    "build": "node init && npm run build -ws",
     "test": "npm run test -ws",
     "lint": "npm run lint -ws",
     "format": "npm run format -ws"
   },
   "devDependencies": {
+    "node-fetch": "^3.3.2",
     "typescript": "^5.8.3"
   },
   "version": "0.0.1"

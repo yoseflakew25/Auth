@@ -8,8 +8,8 @@
     "dist"
   ],
   "scripts": {
-    "dev": "tsup src/index.ts --watch --dts",
-    "build": "tsup src/index.ts --dts",
+    "dev": "node init && tsup src/index.ts --watch --dts",
+    "build": "node init && tsup src/index.ts --dts",
     "clean": "rm -rf dist"
   },
   "dependencies": {

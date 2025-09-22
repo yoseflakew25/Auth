@@ -9,7 +9,6 @@ packages/*/dist
 examples/*/dist
 
 # Env files
-.env
 packages/*/.env
 examples/*/.env
 
@@ -22,5 +21,5 @@ pnpm-debug.log*
 # Editor
 .DS_Store
 *.swp
-.vscode
 .idea
+config.bat
